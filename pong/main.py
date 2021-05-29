@@ -24,14 +24,15 @@ pygame.display.set_caption("GAME")
 # import pictures and convert pictures to pygame.Surface
 
 # create game objects
-paddle = config.Paddle("pokerMad.png", 1, 50, SIZE[1]//2 - 50)
-paddle2 = config.Paddle("pokerSad.png", 2, SIZE[0] - 50 - 30, SIZE[1]//2 - 50)
+paddle = config.Paddle("paddle.png", 1, 50, SIZE[1]//2 - 50)
+paddle2 = config.Paddle("paddle2.png", 2, SIZE[0] - 50 - 30, SIZE[1]//2 - 50)
 ball = config.Ball(350,250)
 font = pygame.font.Font("font.ttf", 35)
 # clock for setting FPS
 clock = pygame.time.Clock()
+# music
 pygame.mixer.init()
-pygame.mixer.music.load("WaterOwl.mp3")
+pygame.mixer.music.load("music.ogg")
 pygame.mixer.music.play(-1)
 ###################
 # Part B: GAME LOOP
@@ -57,8 +58,8 @@ while True:
     #------------------------#
     # STEP 2: UPDATE GAME DATA
     #------------------------#
-    paddle.update(pygame.K_UP, pygame.K_DOWN)
-    paddle2.update(pygame.K_w, pygame.K_s)
+    paddle.update(pygame.K_w, pygame.K_s)
+    paddle2.update(pygame.K_UP, pygame.K_DOWN)
     ball.update(paddle, paddle2)
     if ball.rect.left <= 0 or ball.rect.right >= SIZE[0]:
       if ball.rect.left <= 0:

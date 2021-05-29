@@ -29,23 +29,22 @@ class Paddle(pygame.sprite.Sprite):
 class Ball(pygame.sprite.Sprite):
   def __init__(self, x, y):
     super().__init__()
-    self.surface = pygame.image.load("hud_p1.png").convert()
+    self.surface = pygame.image.load("ball.png").convert()
     self.surface = pygame.transform.scale(self.surface,[30,30])
     self.rect = self.surface.get_rect()
-    self.rect.x = SIZE[0]//2
-    self.rect.y = SIZE[1]//2
-    self.xspeed = 10
-    self.yspeed = 10
-  def update(self, paddle1, paddle2):
+    self.rect.x = SIZE[0]//2 - self.rect.width//2
+    self.rect.y = SIZE[1]//2 - self.rect.height//2
+    self.xspeed = 13
+    self.yspeed = 13
+  def update(self, paddle, paddle2):
     self.rect.x += self.xspeed
     self.rect.y += self.yspeed
-    if self.rect.top <= 0 or self.rect.bottom >= 600:
-      print(self.rect.bottom)
+    if self.rect.top <= 0 or self.rect.bottom >= SIZE[1]:
       self.yspeed *= -1
       wall = pygame.mixer.Sound("sfx_wall.wav")
       wall.play()
     
-    if pygame.sprite.collide_rect(self, paddle1) or pygame.sprite.collide_rect(self, paddle2):
+    if pygame.sprite.collide_rect(self, paddle) or pygame.sprite.collide_rect(self, paddle2):
       self.xspeed *= -1
       bounce = pygame.mixer.Sound("saucerSmall.wav")
       bounce.play()

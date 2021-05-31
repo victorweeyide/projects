@@ -6,7 +6,7 @@ SIZE = [800, 600]
 class Player(pygame.sprite.Sprite):
   def __init__(self):
     super().__init__()
-    self.surface = pygame.image.load("player.png").convert()
+    self.surface = pygame.image.load("player.png")
     self.surface = pygame.transform.scale(self.surface,[40,70])
     self.rect = self.surface.get_rect()
     self.rect.x = SIZE[0]//2 - 20
@@ -16,6 +16,7 @@ class Player(pygame.sprite.Sprite):
     self.score_surface = font.render(f"Score: {self.score}", True, BLUE)
     self.hp = 3
     self.hp_surface = font.render(f"Hp: {self.hp}", True, BLUE)
+
   def update(self):
     keys = pygame.key.get_pressed()
     if keys[pygame.K_LEFT]:

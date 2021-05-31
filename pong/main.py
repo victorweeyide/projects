@@ -1,11 +1,10 @@
-import sys
-import pygame
-import config
 #####################
 # Part A: GAME SETUP:
 #####################
 # define classes, constants, initialize & import game assets below
-
+import sys
+import pygame
+import config
 # Color lists. Check out http://www.colorpicker.com/
 BLACK = [0,0,0]
 WHITE = [255,255,255]

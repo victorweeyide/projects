@@ -24,4 +24,3 @@ Shooter
 
 The player uses the left and right arrow keys to move left and right and the space key to fire at an enemy spaceships moving downwards from the top of the screen that spawns every three seconds. If the player successfully shoots down an enemy spaceship, the player earns a point. If the player instead collides with the enemy spaceship, the player loses health. If the enemy spaceship passes through the bottom of the screen without getting shot down or colliding with the player, more enemy spaceships will spawn in the next wave. The game ends when the player has no more health.  
 
-

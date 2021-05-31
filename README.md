@@ -1,4 +1,4 @@
-Description and Game Logic of Pygame Projects
+Description and Game Logic of Pygame Projects:
 
 Catching
 
@@ -24,3 +24,10 @@ Shooter
 
 The player uses the left and right arrow keys to move left and right and the space key to fire at an enemy spaceships moving downwards from the top of the screen that spawns every three seconds. If the player successfully shoots down an enemy spaceship, the player earns a point. If the player instead collides with the enemy spaceship, the player loses health. If the enemy spaceship passes through the bottom of the screen without getting shot down or colliding with the player, more enemy spaceships will spawn in the next wave. The game ends when the player has no more health.  
 
+
+How to access the games:
+1. Download Visual Studio Code on the computer
+2. Download the game folders
+3. Open the game folders in Visual Studio Code (under "File", select "Open Folder" and choose the folder of the game to be played, e.g. "catching")
+4. Press the green play button at the top right of the Visual Studio Code screen
+5. Enjoy the games!

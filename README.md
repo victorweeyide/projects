@@ -14,7 +14,7 @@ The player has to dodge obstacles moving towards him both on the ground and in t
 
 Platform
 
-The player has to jump from ground onto platforms, some of which are moving, using the up, down, left and right arrow keys, in order to win by landing on the fixed leftmost platform.  
+The player has to jump from the ground onto platforms, some of which are moving, using the up, down, left and right arrow keys, in order to win by landing on the fixed leftmost platform.  
 
 Pong
 
@@ -22,7 +22,7 @@ Two players – one controlling the left paddle using the W and S keys, and one 
 
 Shooter 
 
-The player uses the left and right arrow keys to move left and right and the space key to fire at an enemy spaceships moving downwards from the top of the screen that spawns every three seconds. If the player successfully shoots down an enemy spaceship, the player earns a point. If the player instead collides with the enemy spaceship, the player loses health. If the enemy spaceship passes through the bottom of the screen without getting shot down or colliding with the player, more enemy spaceships will spawn in the next wave. The game ends when the player has no more health.  
+The player uses the left and right arrow keys to move left and right and the space key to fire at enemy spaceships moving downwards from the top of the screen that spawns every three seconds. If the player successfully shoots down an enemy spaceship, the player earns a point. If the player instead collides with the enemy spaceship, the player loses health. If the enemy spaceship passes through the bottom of the screen without getting shot down or colliding with the player, more enemy spaceships will spawn in the next wave. The game ends when the player has no more health left.  
 
 
 How to access the games:

@@ -18,7 +18,7 @@ The player has to jump from ground onto platforms, some of which are moving, usi
 
 Pong
 
-Two players – one controlling the left paddle using the W and S keys, and one controlling the right paddle using the up and down arrow keys – can move their own paddle up and down. A ball starts moving from the centre of the screen in a diagonal direction. When the ball hits a paddle, or the top or bottom of the screen, it bounces at an angle of 90 degrees. If the ball exits the left of the screen, the right player earns a point and the ball resets to the centre. If ball exits the right of the screen, the left player earns a point and the ball also resets to the centre. 
+Two players – one controlling the left paddle using the W and S keys, and one controlling the right paddle using the up and down arrow keys – can move their own paddle up and down. A ball starts moving from the centre of the screen in a diagonal direction. When the ball hits a paddle, or the top or bottom of the screen, it bounces at an angle of 90 degrees. If the ball exits the left of the screen, the right player earns a point and the ball resets to the centre. If the ball exits the right of the screen, the left player earns a point and the ball also resets to the centre. 
 
 Shooter 
 

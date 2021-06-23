@@ -34,8 +34,8 @@ class Ball(pygame.sprite.Sprite):
     self.rect = self.surface.get_rect()
     self.rect.x = SIZE[0]//2 - self.rect.width//2
     self.rect.y = SIZE[1]//2 - self.rect.height//2
-    self.xspeed = 13
-    self.yspeed = 13
+    self.xspeed = 11
+    self.yspeed = 11
   def update(self, paddle, paddle2):
     self.rect.x += self.xspeed
     self.rect.y += self.yspeed

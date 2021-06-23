@@ -38,7 +38,7 @@ gameover_surface = font.render("GAME OVER!", True, GREEN)
 clock = pygame.time.Clock()
 # music
 pygame.mixer.init()
-pygame.mixer.music.load("music.ogg")
+pygame.mixer.music.load("music1.ogg")
 pygame.mixer.music.play(-1)
 ###################
 # Part B: GAME LOOP

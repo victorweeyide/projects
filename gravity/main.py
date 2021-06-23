@@ -39,7 +39,7 @@ texty = fonty.render("GAME OVER", True, [0,0,255])
 clock = pygame.time.Clock()
 # music
 pygame.mixer.init()
-pygame.mixer.music.load("music.ogg")
+pygame.mixer.music.load("music2.ogg")
 pygame.mixer.music.play(-1)
 ###################
 # Part B: GAME LOOP

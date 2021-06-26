@@ -26,8 +26,10 @@ The player uses the left and right arrow keys to move left and right and the spa
 
 
 How to access the games:
-1. Download Visual Studio Code on the computer
-2. Download the game folders
-3. Open the game folders in Visual Studio Code (under "File", select "Open Folder" and choose the folder of the game to be played, e.g. "catching")
-4. Press the green play button at the top right of the Visual Studio Code screen
-5. Enjoy the games!
+1. Have Python and Pygame installed on the computer
+2. Download Visual Studio Code on the computer
+3. Download the game folders
+4. Open the game folders in Visual Studio Code (under "File", select "Open Folder" and choose the folder of the game to be played, e.g. "catching")
+5. Press the green play button at the top right of the Visual Studio Code screen
+6. Enjoy the games!
+7. If you are unable to access the games, you may view the game demo videos in https://tinyurl.com/ytfjt4p4
